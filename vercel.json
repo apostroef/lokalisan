@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "framework": "laravel",
+  "buildCommand": "npm install && npm run build",
   "functions": {
-    "api/*.php": { "runtime": "vercel-php@0.7.0" }
+    "api/index.php": { "runtime": "vercel-php@0.7.0" }
   },
   "routes": [
     { "src": "/build/(.*)", "dest": "/public/build/$1" },
