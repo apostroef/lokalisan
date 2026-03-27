@@ -1,0 +1,22 @@
+# Exclude local dev artifacts and Node dependencies from deployment
+node_modules
+npm-debug.log*
+.yarn
+.pnpm-debug.log*
+.DS_Store
+.vscode
+.idea
+.logs
+coverage
+**/.cache
+**/.git
+**/.github
+**/.gitignore
+**/.gitmodules
+**/.env
+**/.env.*
+**/docker-compose.*
+Dockerfile
+README.md
+phpunit.xml
+tests/**
