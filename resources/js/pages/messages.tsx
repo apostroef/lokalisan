@@ -14,9 +14,11 @@ export default function Messages() {
                     src4="/images/folder-orange.svg"
                 />
             </div>
-            <div className="mt-32 grid w-full grid-cols-4 px-8 sm:px-64">
+            <div className="mt-32 grid w-full grid-cols-4 px-16 sm:px-32">
                 <div className="col-span-full">
-                    <form>  {/* add max words */}
+                    <form>
+                        {' '}
+                        {/* add max words */}
                         <label htmlFor="messages" className="block text-[2rem] text-black">
                             Messages
                         </label>
@@ -45,8 +47,8 @@ export default function Messages() {
             <br></br>
             <hr></hr>
             <div className="bg-dot-pattern absolute h-screen w-full px-8 sm:px-32">
-                <div className="mt-16 grid shrink-0 break-inside-avoid grid-cols-2 gap-8 space-y-4 sm:grid-cols-3">
-                    <div className="grid grid-cols-4 gap-2 rounded-md border-1 border-primary-orange/20 bg-primary-yellow/80 transition-transform duration-200 p-4 hover:rotate-1 hover:bg-primary-yellow">
+                <div className="mt-16 grid shrink-0 break-inside-avoid grid-cols-3 gap-8 space-y-4 sm:grid-cols-2">
+                    <div className="grid grid-cols-4 gap-2 rounded-md border-1 border-primary-orange/20 bg-primary-yellow/80 p-4 transition-transform duration-200 hover:rotate-1 hover:bg-primary-yellow">
                         <p className="col-span-2 flex shrink-0 items-center justify-center rounded-md border-1 border-black bg-light-green/50 p-1 text-sm">
                             Date.
                         </p>
