@@ -25,13 +25,12 @@
         }
     </style>
 
-    <title inertia>{{ config('app.name', 'Laravel') }}</title>
+    <title inertia>{{ config('app.name', 'Ibra Portfolio') }}</title>
 
-    <link rel="icon" href="/apple-1.svg" sizes="any">
-    <link rel="icon" href="/apple-1.svg" type="image/svg+xml">
-    <link rel="apple" href="/apple-1.svg">
+    <link rel="icon" href="/apple-1.svg?v=3" sizes="any" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-1.svg?v=3">
 
-    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link rel="preconnect" href="https://fonts.bunny.net/family/abeezee">
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
 
     @routes
