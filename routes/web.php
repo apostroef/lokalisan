@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use App\Http\Controllers\AnonymousMessageController;
 
 Route::get('/', function () {
     return Inertia::render('homepage');
@@ -36,6 +37,9 @@ Route::middleware(['auth', 'verified'])->group(function () {
         return Inertia::render('dashboard');
     })->name('dashboard');
 });
+
+Route::get('/messages', [AnonymousMessageController::class, 'index'])->name('messages.index');
+Route::post('/messages', [AnonymousMessageController::class, 'store'])->name('messages.store');
 
 require __DIR__.'/settings.php';
 require __DIR__.'/auth.php';
