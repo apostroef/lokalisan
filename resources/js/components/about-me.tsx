@@ -49,7 +49,7 @@ export function AboutMe() {
                                 <AnimatedButton
                                     buttonTitle="Work Experiences"
                                     hoverTitle="Download CV"
-                                    link="/experience"
+                                    link="https://drive.google.com/file/d/19Iodgpb38Qh7UmgHUb8U4aLIiRpPkmqh/view?usp=sharing"
                                     bg="bg-[#B3AB2C]"
                                     bgHover="bg-black"
                                     icon="/images/star-component.png"
