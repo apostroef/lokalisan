@@ -3,7 +3,6 @@ import { XMargin } from '@/components/x-margin-line';
 import { useForm, usePage } from '@inertiajs/react';
 import { FormEventHandler } from 'react';
 
-// Define the shape of our message data coming from Laravel
 interface MessageProps {
     id: number;
     content: string;
@@ -11,15 +10,11 @@ interface MessageProps {
 }
 
 export default function Messages() {
-    // Grab the messages passed down from the Laravel Controller
     const { messages } = usePage<{ messages: MessageProps[] }>().props;
-
-    // Inertia form helper
     const { data, setData, post, processing, reset, errors, recentlySuccessful } = useForm({
         content: '',
     });
 
-    // Calculate word count
     const wordCount = data.content.trim().split(/\s+/).filter(Boolean).length;
     const isOverLimit = wordCount > 300;
 
@@ -32,7 +27,6 @@ export default function Messages() {
         });
     };
 
-    // Helper to format the database timestamp into a readable string
     const formatDate = (dateString: string) => {
         const date = new Date(dateString);
         return date.toLocaleDateString('en-US', {
