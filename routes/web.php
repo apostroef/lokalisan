@@ -12,10 +12,6 @@ Route::get('/experience', function () {
     return Inertia::render('experience');
 })->name('experience');
 
-Route::get('/messages', function () {
-    return Inertia::render('messages');
-})->name('messages');
-
 Route::get('/rwfd', function () {
     return Inertia::render('projects/Rwfd');
 })->name('rwfd');

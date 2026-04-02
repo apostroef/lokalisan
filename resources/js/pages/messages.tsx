@@ -10,7 +10,7 @@ interface MessageProps {
 }
 
 export default function Messages() {
-    const { messages } = usePage<{ messages: MessageProps[] }>().props;
+    const { messages = [] } = usePage<any>().props;
     const { data, setData, post, processing, reset, errors, recentlySuccessful } = useForm({
         content: '',
     });
@@ -101,7 +101,7 @@ export default function Messages() {
                     {messages.length === 0 ? (
                         <p className="col-span-full mt-10 text-center text-gray-500 italic">No messages yet. Be the first!</p>
                     ) : (
-                        messages.map((msg) => (
+                        messages.map((msg: MessageProps) => (
                             <div
                                 key={msg.id}
                                 className="grid grid-cols-4 gap-2 rounded-md border-1 border-primary-orange/20 bg-primary-yellow/80 p-4 transition-transform duration-200 hover:rotate-1 hover:bg-primary-yellow"
