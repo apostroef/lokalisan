@@ -26,12 +26,7 @@ export default function homepage() {
         <>
             <XMargin />
             <div className="overflow-hidden">
-                <Navbar
-                    src1="./images/folder-yellow.svg"
-                    src2="./images/folder-plain.svg"
-                    src3="/images/folder.svg"
-                    src4="/images/folder-orange.svg"
-                />
+                <Navbar src1="/images/folder-yellow.svg" src2="/images/folder-plain.svg" src3="/images/folder.svg" src4="/images/folder-orange.svg" />
             </div>
             <div className="bg-dot-pattern mt-[10vh] gap-4 overflow-hidden p-4 md:p-10 xl:mt-[8vh] xl:p-16">
                 <div className="columns-2 gap-4 space-y-4 md:columns-3 lg:columns-4">
@@ -56,7 +51,7 @@ export default function homepage() {
                 </div>
             </div>
             <div className="flex w-full items-center justify-center gap-2 p-4 align-middle md:p-6 xl:p-8">
-                <img src="images/seal.gif" className="flex w-[5vh] items-center justify-center" />
+                <img src="/images/seal.gif" className="flex w-[5vh] items-center justify-center" />
                 <p className="text-center align-middle text-[1rem] md:text-[1.2rem] xl:text-[1.3rem]">waiting for another journey to share! :D</p>
             </div>
         </>

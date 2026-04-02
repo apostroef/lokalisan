@@ -7,12 +7,7 @@ export default function experience() {
         <>
             <XMargin />
             <div>
-                <Navbar
-                    src1="./images/folder-yellow.svg"
-                    src2="./images/folder-plain.svg"
-                    src3="/images/folder.svg"
-                    src4="/images/folder-orange.svg"
-                />
+                <Navbar src1="/images/folder-yellow.svg" src2="/images/folder-plain.svg" src3="/images/folder.svg" src4="/images/folder-orange.svg" />
             </div>
             <div className="mt-32 h-auto w-auto px-4 md:px-24 xl:px-36">
                 <Header

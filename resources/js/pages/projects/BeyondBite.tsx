@@ -159,7 +159,7 @@ export default function BeyondBite() {
                                             </p>
                                             <div className="bg-dot-pattern grid-cols-1 gap-y-4 rounded-2xl p-4 md:gap-y-4 lg:p-8">
                                                 <img
-                                                    src="images/beyondBite/prototype.png"
+                                                    src="/images/beyondBite/prototype.png"
                                                     className="w-full min-w-[10rem] rounded-2xl border-1 border-light-green md:w-full"
                                                 />
                                             </div>

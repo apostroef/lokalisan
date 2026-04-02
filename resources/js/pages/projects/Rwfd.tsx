@@ -191,16 +191,16 @@ export default function Rwfd() {
                                 </div>
                                 <div className="grid grid-cols-1 items-center justify-center gap-4 p-4 md:grid-cols-3">
                                     <div className="flex flex-col items-center justify-center">
-                                        <img src="images/rwfd/landing-page-tablet.gif" className="h-full w-[13rem] md:w-[12rem] lg:w-[15rem]" />
+                                        <img src="/images/rwfd/landing-page-tablet.gif" className="h-full w-[13rem] md:w-[12rem] lg:w-[15rem]" />
                                         <p className="!text-white lg:p-2">Landing-Page</p>
                                     </div>
 
                                     <div className="flex flex-col items-center justify-center">
-                                        <img src="images/rwfd/FAQ-tablet.gif" className="h-full w-[13rem] md:w-[12rem] lg:w-[15rem]" />
+                                        <img src="/images/rwfd/FAQ-tablet.gif" className="h-full w-[13rem] md:w-[12rem] lg:w-[15rem]" />
                                         <p className="!text-white lg:p-2">FAQ</p>
                                     </div>
                                     <div className="flex flex-col items-center justify-center">
-                                        <img src="images/rwfd/about-us-tablet.gif" className="h-full w-[13rem] md:w-[12rem] lg:w-[15rem]" />
+                                        <img src="/images/rwfd/about-us-tablet.gif" className="h-full w-[13rem] md:w-[12rem] lg:w-[15rem]" />
                                         <p className="!text-white lg:p-2">About-Us-Page</p>
                                     </div>
 
@@ -210,15 +210,15 @@ export default function Rwfd() {
                                         <p className="!text-white">Designed in 1024 dimension for friendly user interaction in mobile. </p>
                                     </div>
                                     <div className="flex flex-col items-center justify-center">
-                                        <img src="images/rwfd/notebook-page.gif" className="h-full w-[5rem] md:w-[7rem] lg:w-[10rem]" />
+                                        <img src="/images/rwfd/notebook-page.gif" className="h-full w-[5rem] md:w-[7rem] lg:w-[10rem]" />
                                         <p className="!text-white lg:p-2">Notebook-Page</p>
                                     </div>
                                     <div className="flex flex-col items-center justify-center">
-                                        <img src="images/rwfd/dataset-page.gif" className="h-full w-[5rem] md:w-[7rem] lg:w-[10rem]" />
+                                        <img src="/images/rwfd/dataset-page.gif" className="h-full w-[5rem] md:w-[7rem] lg:w-[10rem]" />
                                         <p className="!text-white lg:p-2">Dataset-Page</p>
                                     </div>
                                     <div className="flex flex-col items-center justify-center">
-                                        <img src="images/rwfd/dataset-detail-page.gif" className="h-full w-[5rem] md:w-[7rem] lg:w-[10rem]" />
+                                        <img src="/images/rwfd/dataset-detail-page.gif" className="h-full w-[5rem] md:w-[7rem] lg:w-[10rem]" />
                                         <p className="!text-white lg:p-2">Dataset-Details</p>
                                     </div>
                                 </div>
@@ -228,7 +228,7 @@ export default function Rwfd() {
                         <div className="mt-4 flex flex-col items-start justify-start md:mt-16">
                             <div className="flex flex-row items-center justify-center gap-x-2">
                                 <h1 className="font-creato text-[1.5rem] font-bold text-black">Afterword</h1>
-                                <img src="images/star-component.png" className="h-full w-[1.5rem]" />
+                                <img src="/images/star-component.png" className="h-full w-[1.5rem]" />
                             </div>
                             <p className="">
                                 I deeply appreciate the opportunity provided by{' '}

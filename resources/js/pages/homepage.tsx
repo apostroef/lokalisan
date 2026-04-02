@@ -14,8 +14,8 @@ export default function homepage() {
                 <XMargin />
                 <div>
                     <Navbar
-                        src1="./images/folder-plain.svg"
-                        src2="./images/folder-yellow.svg"
+                        src1="/images/folder-plain.svg"
+                        src2="/images/folder-yellow.svg"
                         src3="/images/folder.svg"
                         src4="/images/folder-orange.svg"
                     />
@@ -144,7 +144,7 @@ export default function homepage() {
                                     intro="I contributed in designing responsive Landing Page, Event Page and Ticketing Page along with the system flows."
                                     problem="How Migh We Build an official website that shows main theme idea and easy to navigate."
                                     imgSrc2="/images/tedx/login-mobile.gif"
-                                    imgSrc1="images/tedx/banner-no-border.gif"
+                                    imgSrc1="/images/tedx/banner-no-border.gif"
                                 />
                             </ScrollStackItem>
                         </ScrollStack>

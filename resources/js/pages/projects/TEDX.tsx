@@ -110,7 +110,7 @@ export default function Rwfd() {
                                                 <div className="grid grid-cols-1 items-end justify-center p-4 md:grid-cols-4 md:gap-12 md:p-8">
                                                     <div className="col-span-3 flex flex-col items-center justify-center">
                                                         <img
-                                                            src="images/tedx/landing-page-mac.gif"
+                                                            src="/images/tedx/landing-page-mac.gif"
                                                             className="h-full w-[25rem] md:w-[20rem] lg:w-[30rem]"
                                                         />
                                                         <p className="!text-white lg:p-2">Landing-Page</p>
@@ -124,7 +124,7 @@ export default function Rwfd() {
                                             <ResultGrid2
                                                 title="Login Page"
                                                 desc="Login Page"
-                                                pcImage="images/tedx/login-pc.gif"
+                                                pcImage="/images/tedx/login-pc.gif"
                                                 pcDesc="login-pc"
                                                 phoneImage="images/tedx/login-phone-black.gif"
                                                 phoneDesc="login-phone"
@@ -132,7 +132,7 @@ export default function Rwfd() {
                                             <ResultGrid2
                                                 title="Themes"
                                                 desc="Event theme informations"
-                                                pcImage="images/tedx/main-theme-black.gif"
+                                                pcImage="/images/tedx/main-theme-black.gif"
                                                 pcClass="lg:w-[27rem]"
                                                 pcDesc="main-theme-pc"
                                                 phoneImage="images/tedx/theme-phone.png"
@@ -141,7 +141,7 @@ export default function Rwfd() {
                                             <ResultGrid1
                                                 title="Ticketing System"
                                                 desc="Event theme informations"
-                                                pcImage="images/tedx/tiket-black.gif"
+                                                pcImage="/images/tedx/tiket-black.gif"
                                                 pcClass="lg:w-[40rem]"
                                                 pcDesc="ticketing-system"
                                                 colSpan="lg:col-span-4"
