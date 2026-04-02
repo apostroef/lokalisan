@@ -12,8 +12,8 @@ class AnonymousMessageController extends Controller
         $messages = AnonymousMessage::where('is_approved',true)
         ->latest()
         ->get();
-    
-    return Inertia::render('Messages', ['messages' => $messages]);
+
+        return Inertia::render('messages', ['messages' => $messages]);
     }
 
     public function store(Request $request)
@@ -33,7 +33,7 @@ class AnonymousMessageController extends Controller
 
         AnonymousMessage::create([
             'content' => $request->content,
-            'is_approved' => false, // Requires your manual approval in the database
+            'is_approved' => true, // Requires your manual approval in the database
         ]);
 
         return redirect()->back()->with('success', 'Message sent! Waiting for approval.');

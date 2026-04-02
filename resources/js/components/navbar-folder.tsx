@@ -1,4 +1,3 @@
-import { Link } from '@inertiajs/react';
 import React from 'react';
 
 interface NavBar {
@@ -29,10 +28,10 @@ export const Navbar: React.FC<NavBar> = ({ src1, src2, src3, src4 }) => {
                 </a>
 
                 <div className="relative right-10 z-5 mt-4 flex w-1/2 flex-col items-center justify-center transition-all duration-300 ease-in-out hover:z-30 hover:mt-2 hover:font-bold md:mt-7 md:-ml-10 md:w-1/3">
-                    <Link href="/messages">
+                    <a href="/messages">
                         <h1 className="absolute top-2 left-1/15 z-10 font-creato text-black md:top-4 md:left-1/8 md:text-[1.5rem]">messages.</h1>
                         <img className="absolute inset-0 z-0" src={src3} />
-                    </Link>
+                    </a>
                 </div>
                 {/* <div className="relative z-0 mt-5 -ml-20 flex w-1/2 flex-col items-center justify-center transition-all duration-300 ease-in-out hover:z-30 hover:mt-2 hover:font-bold md:mt-9 md:-ml-100 md:w-1/3">
                     <h1 className="absolute top-2 left-1/8 z-10 font-creato text-black md:top-4 md:text-[1.5rem]">mailbox.</h1>

@@ -33,8 +33,6 @@ export default function Messages() {
             year: 'numeric',
             month: 'short',
             day: 'numeric',
-            hour: '2-digit',
-            minute: '2-digit',
         });
     };
 
@@ -97,7 +95,7 @@ export default function Messages() {
 
             {/* Approved Messages Display */}
             <div className="bg-dot-pattern absolute h-screen w-full px-8 sm:px-32">
-                <div className="mt-16 grid shrink-0 break-inside-avoid grid-cols-3 gap-8 space-y-4 sm:grid-cols-2">
+                <div className="mt-16 grid shrink-0 break-inside-avoid grid-cols-2 gap-8 space-y-4 md:grid-cols-3">
                     {messages.length === 0 ? (
                         <p className="col-span-full mt-10 text-center text-gray-500 italic">No messages yet. Be the first!</p>
                     ) : (
