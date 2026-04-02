@@ -16,11 +16,12 @@ module.exports = {
         extend: {
             colors: {
             },
-
+            fontFamily: {
+                // The keys here ('creato' and 'rushing') become your Tailwind classes
+                creato: ['"Creato-Display"', ...defaultTheme.fontFamily.sans],
+                rushing: ['"Rushing-Shine"', ...defaultTheme.fontFamily.sans],
+            },
             // ... Anda bisa menambahkan ekstensi tema lainnya di sini, seperti colors, spacing, dll.
-            // colors: {
-            //   'page-bg-color': 'rgba(255, 249, 235, 1)',
-            // },
         },
     },
     plugins: [

@@ -22,26 +22,28 @@
 }
 
 @font-face {
-    font-family: "Creato-Display"; /* Ini adalah nama font-family yang akan Anda gunakan di Tailwind */
-    src: url('/public/fonts/CreatoDisplay-Regular.otf') format('opentype'); /* Path relatif dari public/ */
+    font-family: "Creato-Display";
+    src: url('/fonts/CreatoDisplay-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
     leading-trim: both;
     font-display: swap;
     line-height: normal;
 }
+
 @font-face {
-    font-family: "Rushing-Shine"; /* Ini adalah nama font-family yang akan Anda gunakan di Tailwind */
-    src: url('/public/fonts/Rushing-Shine.otf') format('opentype'); /* Path relatif dari public/ */
+    font-family: "Rushing-Shine";
+    src: url('/fonts/Rushing-Shine.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
     leading-trim: both;
     font-display: swap;
     line-height: normal;
 }
+
 @font-face {
-    font-family: "Creato-Display"; /* Ini adalah nama font-family yang akan Anda gunakan di Tailwind */
-    src: url('/public/fonts/CreatoDisplay-Bold.otf') format('opentype'); /* Path relatif dari public/ */
+    font-family: "Creato-Display";
+    src: url('/fonts/CreatoDisplay-Bold.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
