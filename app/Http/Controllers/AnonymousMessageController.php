@@ -22,7 +22,6 @@ class AnonymousMessageController extends Controller
             'content' => [
                 'required',
                 'string',
-                // Custom rule to ensure max 300 words
                 function ($attribute, $value, $fail) {
                     if (str_word_count($value) > 300) {
                         $fail('The message cannot exceed 300 words.');
@@ -33,7 +32,7 @@ class AnonymousMessageController extends Controller
 
         AnonymousMessage::create([
             'content' => $request->content,
-            'is_approved' => true, // Requires your manual approval in the database
+            'is_approved' => false
         ]);
 
         return redirect()->back()->with('success', 'Message sent! Waiting for approval.');

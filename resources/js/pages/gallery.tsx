@@ -32,18 +32,19 @@ export default function homepage() {
                 <div className="columns-2 gap-4 space-y-4 md:columns-3 lg:columns-4">
                     {images.map((item) => (
                         <div key={item.id} className="break-inside-avoid">
-                            <div className="group flex-col rounded-2xl duration-300 hover:rotate-2 hover:shadow-2xl">
-                                <div className="relative flex justify-center opacity-100 transition-transform group-hover:opacity-30 group-hover:blur-[5px]">
+                            <div className="group flex-col rounded-2xl duration-300 lg:hover:rotate-2 lg:hover:shadow-2xl">
+                                <div className="relative flex justify-center opacity-100 transition-transform lg:group-hover:opacity-30 lg:group-hover:blur-[5px]">
                                     <img
                                         src={item.imgLink}
                                         alt={item.alt}
-                                        className="h-auto w-full cursor-pointer rounded-lg shadow-md transition-opacity duration-300 hover:opacity-90"
+                                        className="h-auto w-full cursor-pointer rounded-lg shadow-md transition-opacity duration-300 lg:group-hover:opacity-90"
                                     />
                                 </div>
-                                <div className="pointer-events-none absolute inset-0 flex items-center justify-center opacity-0 transition-opacity group-hover:opacity-70">
-                                    <p className="w-full justify-items-center p-4 text-center align-middle text-[1rem] text-black md:text-[1.2rem] xl:text-[1.3rem]">
-                                        {item.alt}
-                                    </p>
+                                <div className="pointer-events-none absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 lg:group-hover:opacity-70">
+                                    <p className="w-full p-4 text-center text-[1rem] text-black md:text-[1.2rem]">{item.alt}</p>
+                                </div>
+                                <div className="w-full lg:hidden">
+                                    <p className="text-center text-sm opacity-100">{item.alt}</p>
                                 </div>
                             </div>
                         </div>
