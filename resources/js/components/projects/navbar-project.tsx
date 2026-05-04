@@ -13,7 +13,7 @@ export const NavBarProject: React.FC<NavBarProject> = ({ ProjectName, link, link
     return (
         <div className="h-auto w-auto py-8">
             <div className="fixed top-0 right-0 left-0 z-50 h-[3.6rem] w-auto overflow-x-hidden bg-[#fffbed] md:h-[5rem] lg:h-[8rem]">
-                <div className="fixed flex h-[3.6rem] w-full flex-row justify-start overflow-y-hidden px-2 md:h-[5rem] md:justify-start md:gap-x-24 md:px-8 lg:h-[8rem] lg:gap-x-2">
+                <div className="fixed flex h-[3.6rem] w-full flex-row justify-start overflow-hidden px-2 md:h-[5rem] md:justify-start md:gap-x-24 md:px-8 lg:h-[8rem] lg:gap-x-2">
                     <a
                         href="/"
                         className="group relative z-10 mt-[1rem] flex w-1/2 flex-col items-center justify-center transition-all duration-300 ease-in-out hover:z-25 hover:mt-[0.7rem] hover:font-bold md:mt-[2.3rem] md:w-1/3 lg:mt-[3.6rem] lg:hover:mt-[3rem]"

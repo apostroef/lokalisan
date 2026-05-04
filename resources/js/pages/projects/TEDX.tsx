@@ -16,8 +16,10 @@ export default function Rwfd() {
                 ProjectName="projects/TedXUA"
                 ProjectName2="projects/RWFD"
                 ProjectName3="projects/BeyondTheBite"
+                ProjectName4="projects/Priorly"
                 link="/rwfd"
                 link1="/beyond-the-bite"
+                link2="/priorly"
             />
 
             <ProjectHeader

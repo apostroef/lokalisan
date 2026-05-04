@@ -195,7 +195,7 @@ export default function Priorly() {
                                             </div>
 
                                             <div className="flex w-full items-center justify-start gap-x-2">
-                                                <h1 className="text-[2rem] text-black md:text-[1.2rem] xl:text-[1.5rem]">Q2.</h1>
+                                                <h1 className="text-[2rem] text-black md:text-[1.2rem] xl:text-[1.5rem]">Q3.</h1>
                                                 <p className="font-shine text-[2rem]">SwiftUI Coding & SwiftData</p>
                                             </div>
                                             <div>
@@ -212,9 +212,8 @@ export default function Priorly() {
                                                     <span className="bg-light-green">
                                                         SwiftData to manage task objects and their RICE calculations
                                                     </span>
-                                                    . I focused on creating an efficient data structure that allows the app to offload a user's mental
-                                                    effort. This project highlights my ability to build data-heavy iOS apps that are technically sound
-                                                    and solve real psychological hurdles.
+                                                    . I learned SwiftUI from free courses in YouTube and read documentation from Apple Developer
+                                                    website as well as utilizing AI agent helps (Claude, Gemini) for debugging.
                                                 </p>
                                             </div>
                                         </div>
