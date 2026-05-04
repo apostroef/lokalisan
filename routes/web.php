@@ -16,6 +16,10 @@ Route::get('/rwfd', function () {
     return Inertia::render('projects/Rwfd');
 })->name('rwfd');
 
+Route::get('/priorly', function () {
+    return Inertia::render('projects/Priorly');
+})->name('priorly');
+
 Route::get('/tedx-ua', function () {
     return Inertia::render('projects/TEDX');
 })->name('tedx-ua');

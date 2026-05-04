@@ -21,26 +21,13 @@ export default function homepage() {
                     />
                 </div>
                 <div className="">
-                    <div className="relative">
-                        {/* <div className="absolute md:px-50 md:py-120 xl:px-64 xl:py-80">
-                            <div className="group relative inset-0 z-0 w-full items-center justify-center">
-                                <div className="align-center inset-0 z-0 w-auto flex-col justify-items-center group-hover:opacity-0">
-                                    <img src="./images/beyondBite/folder-closed.png" className="w-[3.5rem] items-center justify-center" />
-                                    <p className="align-center xl:text-[1rem]">Graphic Design Portfolio</p>
-                                </div>
-                                <div className="align-center absolute inset-0 z-0 w-auto flex-col justify-items-center opacity-0 group-hover:opacity-100">
-                                    <img src="./images/beyondBite/folder-open.png" className="w-[3.5rem] items-center justify-center" />
-                                    <p className="align-center xl:text-[1rem]">Graphic Design Portfolio</p>
-                                </div>
-                            </div>
-                        </div> */}
-                    </div>
+                    <div className="relative"></div>
                     <HeroSection />
 
                     <div className="mt-32 h-auto w-auto selection:bg-[#D2E09A]">
                         <div className="flex min-h-[40px] w-full flex-col justify-end pb-4">
                             <p className="text-center text-gray-700">
-                                ( Graphic Design project can be accessed{' '}
+                                ( <span className="bg-light-green">Graphic Design</span> project can be accessed{' '}
                                 <a
                                     href="https://www.canva.com/design/DAFaLtBWDgA/J0afjm4tN8xwRDwsTNjMIw/view?utm_content=DAFaLtBWDgA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd8f0555fb7"
                                     target="_blank"
@@ -63,7 +50,7 @@ export default function homepage() {
                                         <span className="font-serif italic">About</span> Me
                                     </>
                                 }
-                                description="GPA 3.81/4 | 1+ years UI/UX research experiences | 2nd Outstanding Student 2024 | 3rd Outstanding Student 2023"
+                                description="GPA 3.82/4 | Less than 1 year UI/UX research experiences | 2nd Outstanding Student 2024 | 3rd Outstanding Student 2023"
                             />
                             <AboutMe />
                         </div>
@@ -75,7 +62,7 @@ export default function homepage() {
                                 icon="/images/crab.gif"
                                 title={
                                     <>
-                                        Study <span className="font-serif italic">Case</span>s
+                                        Project & <span className="font-serif italic">Study</span> Cases
                                     </>
                                 }
                                 description={
@@ -90,10 +77,35 @@ export default function homepage() {
                         <ScrollStack className="h-[100vh] w-auto px-4 md:h-[120vh] md:px-24 xl:h-[100vh] xl:px-36">
                             <ScrollStackItem>
                                 <ProjectCard
+                                    link="/priorly"
+                                    title={
+                                        <>
+                                            <span className="font-serif italic">Priorly:</span> Task Prioritization
+                                        </>
+                                    }
+                                    description={
+                                        <>
+                                            April 2026 | <span className="font-bold">Role</span> UI/UX Designer, iOS Developer |{' '}
+                                            <span className="font-bold">User</span> Procrastinator | <span className="font-bold">Scope</span>{' '}
+                                            Information Gathering, User Research, UI/UX, Prototyping, iOS App Development
+                                        </>
+                                    }
+                                    intro="In a 5-person team during Apple Foundation Program, I designed UI/UX based on user pain point and developed each app features with SwiftUI and Swift Data."
+                                    problem="How to overcome procrastination through s clear & rewarding target activity?"
+                                    icon="/images/foundation/apple-dev.png"
+                                    imgSrc1="/images/foundation/streak-task.gif"
+                                    imgSrc2="/images/foundation/next-task.gif"
+                                    imgSrc3="/images/foundation/prototype.svg"
+                                    imgMobile="/images/foundation/landing-mock.png"
+                                />
+                            </ScrollStackItem>
+                            <ScrollStackItem>
+                                <ProjectCard
                                     link="/rwfd"
                                     title={
                                         <>
-                                            Real World <span className="font-serif italic">Fake Data</span> Website
+                                            <span className="font-serif italic">RWFD: </span>Real World{' '}
+                                            <span className="font-serif italic">Fake Data</span> Website
                                         </>
                                     }
                                     description={
@@ -105,9 +117,11 @@ export default function homepage() {
                                     }
                                     intro="In a 3-person team, I designed and coded interface following SLDC and Design Thinking framework."
                                     problem="How Might We build a website to publish and manage research datasets from Airlangga University's faculty and staff, making them accessible for use?"
+                                    icon="/images/icon/satu-data.png"
                                     imgSrc1="/images/faq.gif"
                                     imgSrc2="/images/landing-page.gif"
                                     imgSrc3="/images/tags-dataset.gif"
+                                    imgMobile="/images/landing-page.gif"
                                 />
                             </ScrollStackItem>
 
@@ -124,6 +138,7 @@ export default function homepage() {
                                     problem="How might we build a friendly interface for our Computer Vision project?"
                                     imgSrc1="/images/beyondBite/product2.png"
                                     imgSrc2="/images/beyondBite/main.gif"
+                                    imgMobile="/images/beyondBite/main.gif"
                                 />
                             </ScrollStackItem>
                             <ScrollStackItem>
@@ -143,8 +158,10 @@ export default function homepage() {
                                     }
                                     intro="I contributed in designing responsive Landing Page, Event Page and Ticketing Page along with the system flows."
                                     problem="How Migh We Build an official website that shows main theme idea and easy to navigate."
+                                    icon="/images/icon/tedx.png"
                                     imgSrc2="/images/tedx/login-mobile.gif"
                                     imgSrc1="/images/tedx/banner-no-border.gif"
+                                    imgMobile="/images/tedx/banner-no-border.gif"
                                 />
                             </ScrollStackItem>
                         </ScrollStack>

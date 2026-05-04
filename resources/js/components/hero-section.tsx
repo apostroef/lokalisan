@@ -40,7 +40,7 @@ export function HeroSection() {
                 <div className="mt-[1rem] flex flex-col items-center justify-start py-2 md:mt-0 md:items-center md:justify-center md:py-6">
                     <p className="text-center">3rd year Information System student, Universitas Airlangga</p>
                     <p className="text-center">
-                        Have been doing design for 5+ years. Based in <span className="line-through">Denpasar</span>, Surabaya | ID
+                        Have been doing creative design for 4 years. Based in <span className="line-through">Denpasar</span>, Surabaya | ID
                     </p>
                     <br></br>
                 </div>
@@ -61,7 +61,6 @@ export function HeroSection() {
                         className="absolute top-12 z-10 flex h-[2.2rem] items-center justify-center md:top-8 md:h-[3.2rem]"
                     />
                 </div>
-                
             </div>
         </>
     );

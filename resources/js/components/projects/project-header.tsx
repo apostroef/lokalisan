@@ -13,7 +13,7 @@ export const ProjectHeader: React.FC<ProjectHeader> = ({ ProjectTitle, ProjectDe
                 <div className="flex flex-col items-start justify-center md:items-center">
                     <h1 className="font-creato text-[3rem] text-black md:text-center md:text-[4rem] lg:text-[3.5rem]">{ProjectTitle}</h1>
                     <div className="flex flex-col items-start justify-center md:items-center">{ProjectDesc}</div>
-                    <img src={ProjectCover} className="h-auto w-[36rem]" />
+                    <img src={ProjectCover} className="h-fit w-[30rem]" />
                 </div>
             </div>
         </>
