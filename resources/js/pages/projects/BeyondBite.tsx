@@ -9,8 +9,8 @@ import { XMargin } from '@/components/x-margin-line';
 export default function BeyondBite() {
     const myDesktopScreens: ShowcaseItem[] = [
         { img: './images/beyondBite/main.gif', label: 'Landing Page' },
-        { img: './images/beyondBite/works.gif', label: 'Landing Page' },
-        { img: './images/beyondBite/product1.png', label: 'Landing Page' },
+        { img: './images/beyondBite/works.gif', label: 'System Works' },
+        { img: './images/beyondBite/product1.png', label: 'App Functions' },
     ];
     const myMobileScreens: ShowcaseItem[] = [{ img: '/images/beyondBite/works.gif', label: 'Notebook View' }];
     return (
@@ -19,9 +19,11 @@ export default function BeyondBite() {
             <NavBarProject
                 ProjectName="projects/Beyond-The-Bite"
                 ProjectName2="projects/RWFD"
-                ProjectName3="projects/TedX"
+                ProjectName3="projects/Priorly"
+                ProjectName4="projects/TedX"
                 link="/rwfd"
-                link1="/tedx-ua"
+                link1="/priorly"
+                link2="/tedx-ua"
             />
             <ProjectHeader
                 ProjectTitle={
@@ -56,10 +58,9 @@ export default function BeyondBite() {
                                     <p>
                                         <span className="bg-light-green font-bold">Beyond the Bite</span> was a 4-months project with 6-person-team
                                         for our <span className="bg-light-green font-bold">Project Management </span>class. I was given the role for
-                                        <span className="bg-light-green font-bold"> UI/UX Designer coupled with Front-End Dev</span>. I integrated the
-                                        ML Model with Django as back-end. Along the way, I changed my role into{' '}
-                                        <span className="bg-light-green font-bold">Administrative Project Assistant</span> who took care of Project
-                                        Standard using PM2 Method and Click Up.
+                                        <span className="bg-light-green font-bold"> UI/UX Designer coupled with Front-End Dev</span>. Along the way, I
+                                        changed my role into <span className="bg-light-green font-bold">Administrative Project Assistant</span> who
+                                        took care of Project Standard using PM2 Method and Click Up.
                                     </p>
                                 </>
                             }
@@ -153,7 +154,7 @@ export default function BeyondBite() {
                                             <br></br>
                                             <p>
                                                 <span className="rounded-2xl border-1 border-black bg-light-green">UI Design & Prototyping</span>. I
-                                                built responsive prototype with auto-layout then pitched them to our PM& PMOs. Since I worked as
+                                                built responsive prototype with auto-layout then pitched them to our PM & PMOs. Since I worked as
                                                 Front-End dev, I did not make proper navigation arrow (best practice). As long as it works and the PM
                                                 understood the approach, then it's all settled.
                                             </p>
