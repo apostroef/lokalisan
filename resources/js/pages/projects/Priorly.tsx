@@ -40,7 +40,7 @@ export default function Priorly() {
                 ProjectDesc={
                     <>
                         <p className="mb-5 md:text-center">
-                            iOS App that overcome procrastination through clear & rewarding task setting. By using theories on human motivation, I
+                            iOS App that overcome procrastination through clear & rewarding task setting. By using theories on human motivation, we
                             designed the app to make users feel more in control and capable of finishing their goals.
                         </p>
                     </>
@@ -70,12 +70,6 @@ export default function Priorly() {
                                         <span className="font-bold">(me & Edward)</span>. I took the role as{' '}
                                         <span className="bg-light-green font-bold">lead iOS Developer & UI/UX Designer</span>, responsible to make
                                         sure our end-product directly fulfill our challenge response.
-                                    </p>
-                                    <br></br>
-                                    <p>
-                                        I built Priorly to help people stop overthinking and start doing. I used SwiftUI and SwiftData to create an
-                                        iOS app that manages the hard work of choosing what to do next. By using theories on human motivation, I
-                                        designed the app to make users feel more in control and capable of finishing their goals.
                                     </p>
                                 </>
                             }
@@ -246,14 +240,13 @@ export default function Priorly() {
                                     <p>
                                         Our process ensured all design choices were grounded in research, collaboration and iteration. While the
                                         current solution effectively maintains user motivation through rewarding target activities, we identified
-                                        "Relatedness" as a key area for future development.{' '}
+                                        "Relatedness" aspect from BPN as a key area for future development.{' '}
                                     </p>
                                     <br></br>
                                     <p>
                                         I mastered technical skills in SwiftUI and SwiftData while adhering to Apple’s Human Interface Guidelines
                                         through consistent daily self-regulated learning. This experience has deeply motivated me to pursue further
-                                        mastery within the Apple developer ecosystem. I plan to carry these collaborative strategies into future
-                                        endeavors to ensure continued professional growth.
+                                        mastery within the Apple developer ecosystem.
                                     </p>
                                 </>
                             }
