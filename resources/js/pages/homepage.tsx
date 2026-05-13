@@ -27,7 +27,7 @@ export default function homepage() {
                     <div className="mt-32 h-auto w-auto selection:bg-[#D2E09A]">
                         <div className="flex min-h-[40px] w-full flex-col justify-end pb-4">
                             <p className="text-center text-gray-700">
-                                ( <span className="bg-light-green">Graphic Design</span> project can be accessed{' '}
+                                ( <span>Graphic Design</span> project can be accessed{' '}
                                 <a
                                     href="https://www.canva.com/design/DAFaLtBWDgA/J0afjm4tN8xwRDwsTNjMIw/view?utm_content=DAFaLtBWDgA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd8f0555fb7"
                                     target="_blank"
