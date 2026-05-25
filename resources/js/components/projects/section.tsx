@@ -1,18 +1,14 @@
-import React from "react";
+import React from 'react';
 
-interface ProjectSection{
-SectionTitle: string;
-SectionBody: React.ReactNode;
+interface ProjectSection {
+    SectionTitle: string;
+    SectionBody: React.ReactNode;
 }
-export const ProjectSection : React.FC<ProjectSection> =({SectionTitle, SectionBody}) => {
+export const ProjectSection: React.FC<ProjectSection> = ({ SectionTitle, SectionBody }) => {
     return (
-        <>
-            <div className="mt-2 h-full w-full items-start overflow-hidden lg:mt-4">
-                <div className="flex h-full w-full flex-col items-start justify-start">
-                    <h1 className="font-creato text-[1.5rem] font-bold text-black lg:text-[2rem]">{SectionTitle}</h1>
-                    <div className="flex h-full w-full flex-col md:items-center">{SectionBody}</div>
-                </div>
-            </div>
-        </>
+        <div className="mt-8 grid grid-cols-1 gap-x-12 gap-y-4 md:grid-cols-4 lg:mt-12">
+            <h1 className="font-creato text-[1.5rem] font-bold text-black md:col-span-1 lg:text-[2rem]">{SectionTitle}</h1>
+            <div className="md:col-span-3">{SectionBody}</div>
+        </div>
     );
-}
+};

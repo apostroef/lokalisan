@@ -10,13 +10,13 @@ import { XMargin } from '@/components/x-margin-line';
 
 export default function Priorly() {
     const myDesktopScreens: ShowcaseItem[] = [
-        { img: './images/foundation/prototype.svg', label: 'User Interface' },
-        { img: './images/foundation/landing-mock.png', label: 'Mock Up' },
+        { img: './images/foundation/prototype.svg', label: 'Priorly Interactive iOS Prototype' },
+        { img: './images/foundation/landing-mock.png', label: 'Priorly App Landing Page Mockup' },
     ];
     const myMobileScreens: ShowcaseItem[] = [
-        { img: '/images/foundation/adding-task.gif', label: 'Add Your Task!' },
-        { img: '/images/foundation/streak-task.gif', label: 'Task Streak' },
-        { img: './images/foundation/next-task.gif', label: 'Next Prioritized Task' },
+        { img: '/images/foundation/adding-task.gif', label: 'Priorly - Adding a New Task Demo' },
+        { img: '/images/foundation/streak-task.gif', label: 'Priorly - Task Streak and Motivation' },
+        { img: './images/foundation/next-task.gif', label: 'Priorly - Smart Task Prioritization' },
     ];
     return (
         <>
@@ -61,158 +61,190 @@ export default function Priorly() {
                         <ProjectSection
                             SectionTitle="Foreword"
                             SectionBody={
-                                <>
-                                    {' '}
+                                <div className="space-y-4">
                                     <p>
-                                        <span className="bg-light-green font-bold">🎐Priorly</span> is a product from a 1-month intense Apple
-                                        Foundation Program under the Apple Developer Academy @ UC, Surabaya. The 5-person-team consists of 3 medical
-                                        students (Universitas Ciputra) <span className="font-bold">(Bilal, Hendrik, Paulinne)</span> and 2 engineers{' '}
-                                        <span className="font-bold">(me & Edward)</span>. I took the role as{' '}
-                                        <span className="bg-light-green font-bold">lead iOS Developer & UI/UX Designer</span>, responsible to make
-                                        sure our end-product directly fulfill our challenge response.
+                                        <span className="font-bold">Priorly</span> is the result of an intense one-month Apple Foundation Program at
+                                        the Apple Developer Academy @ UC, Surabaya. Our five-person team combined diverse backgrounds, featuring three
+                                        medical students <span className="text-gray-600">(Bilal, Hendrik, Paulinne)</span> and two engineers{' '}
+                                        <span className="text-gray-600">(Edward and myself)</span>.
                                     </p>
-                                </>
+                                    <p>
+                                        I served as the{' '}
+                                        <span className="font-bold underline decoration-light-green decoration-4 underline-offset-4">
+                                            lead iOS Developer & UI/UX Designer
+                                        </span>
+                                        , ensuring our final product directly addressed the core challenge with a robust technical and design-driven
+                                        response.
+                                    </p>
+                                </div>
                             }
                         />
                         <ProjectSection
                             SectionTitle="Challenges"
                             SectionBody={
-                                <>
-                                    {' '}
-                                    <div className="grid break-inside-avoid grid-cols-1 justify-items-center gap-x-4 md:grid-cols-3 xl:grid-cols-3 xl:justify-items-start">
-                                        <div className="relative rotate-[-5] py-2 transition-all duration-299 ease-in-out hover:rotate-1">
-                                            <Memo
-                                                number="1"
-                                                memotext="How do we overcome procrastination with an iOS App?"
-                                                className="h-auto w-[13rem] md:h-auto md:w-[10rem] lg:h-auto lg:w-auto"
-                                            />
-                                        </div>
-                                        <div className="relative rotate-[-5] py-2 transition-all duration-299 ease-in-out hover:rotate-1">
-                                            <Memo
-                                                number="2"
-                                                memotext="How to support the app through user interface & experience?"
-                                                className="h-auto w-[13rem] md:h-auto md:w-[10rem] lg:h-auto lg:w-auto"
-                                            />
-                                        </div>
-                                        <div className="relative rotate-[-5] py-2 transition-all duration-299 ease-in-out hover:rotate-1">
-                                            <Memo
-                                                number="3"
-                                                memotext="How do I implement SwiftUI & SwiftData best practice?"
-                                                className="h-auto w-[13rem] md:h-auto md:w-[10rem] lg:h-auto lg:w-auto"
-                                            />
-                                        </div>
+                                <div className="grid break-inside-avoid grid-cols-1 justify-items-center gap-x-4 xl:justify-items-start">
+                                    <div className="relative rotate-[-5] py-2 transition-all duration-300 ease-in-out hover:rotate-1">
+                                        <Memo
+                                            number="🤔"
+                                            memotext="How do we overcome procrastination with an iOS App?"
+                                            className="h-auto w-[13rem] md:h-auto md:w-[10rem] lg:h-auto lg:w-auto"
+                                        />
                                     </div>
-                                </>
+                                </div>
                             }
                         />
                         <ProjectSection
                             SectionTitle="Process"
                             SectionBody={
-                                <>
-                                    {' '}
-                                    <div className="p-4 md:p-2 lg:p-8">
-                                        <div className="flex w-full items-center justify-start gap-x-2">
-                                            <h1 className="text-[2rem] text-black md:text-[1.2rem] xl:text-[1.5rem]">Q1.</h1>
-                                            <p className="font-shine text-[2rem]">Identify & Iteration</p>
+                                <div className="space-y-8 p-4 md:p-2 lg:p-8">
+                                    {/* Q1 Section */}
+                                    <div className="space-y-4">
+                                        <div className="flex w-full items-center justify-start gap-x-3">
+                                            <h1 className="text-[2rem] font-bold text-black md:text-[1.2rem] xl:text-[1.5rem]">Q1.</h1>
+                                            <p className="font-shine text-[2.5rem]">Identify & Iteration</p>
                                         </div>
-                                        <div>
-                                            <p>
-                                                <span className="rounded-2xl border-1 border-black bg-light-green">Identify</span>. During this phase,
-                                                we were obligated to do academic research to find correct respond to the challenge. I was tasked to
-                                                identify{' '}
-                                                <span className="bg-light-green">
-                                                    what type of feature we can integrate to the application in order to fulfill Basic Psychology
-                                                    Needs (autonomy, competence, relatedness)
+
+                                        <div className="space-y-6">
+                                            <p className="leading-relaxed">
+                                                <span className="mr-2 inline-block rounded-full border border-black bg-light-green px-3 py-0.5 text-sm font-bold">
+                                                    Identify
                                                 </span>
-                                                . This research led me to read{' '}
-                                                <a href="https://www.sciencedirect.com/science/article/pii/S1071581920300513?via%3Dihub#bib0159">
-                                                    <span className="font-bold">
-                                                        Apps That Motivate: a Taxonomy of App Features Based on Self-Determination Theory
-                                                    </span>
-                                                </a>{' '}
-                                                as my main sources.
+                                                During this phase, we conducted academic research to identify the most effective response to our
+                                                challenge. I focused on determining which{' '}
+                                                <span className="font-semibold underline decoration-light-green/50 decoration-2">
+                                                    app features could fulfill Basic Psychological Needs (autonomy, competence, relatedness)
+                                                </span>
+                                                . My primary source was the research paper:{' '}
+                                                <a
+                                                    href="https://www.sciencedirect.com/science/article/pii/S1071581920300513?via%3Dihub#bib0159"
+                                                    className="font-bold text-black underline transition-colors hover:text-green-800"
+                                                >
+                                                    "Apps That Motivate: a Taxonomy of App Features Based on Self-Determination Theory."
+                                                </a>
                                             </p>
-                                            <br></br>
-                                            <p>
-                                                <span className="rounded-2xl border-1 border-black bg-light-green">Iteration</span>. After team
-                                                discussion and iteration where we need to respond several crucial yet unanswered question, we decided
-                                                our main features.
-                                            </p>
-                                            <div className="bg-dot-pattern grid-cols-1 gap-y-4 rounded-2xl p-4 md:gap-y-4">
-                                                <img src="images/foundation/miro.png" className="rounded-2xl lg:max-w-[60vh]" loading="lazy" />
-                                            </div>
-                                        </div>
-                                        <br></br>
-                                        {/* second part */}
 
-                                        <div className="flex w-full items-center justify-start gap-x-2">
-                                            <h1 className="text-[2rem] text-black md:text-[1.2rem] xl:text-[1.5rem]">Q2.</h1>
-                                            <p className="font-shine text-[2rem]">UX Research & UI Design</p>
-                                        </div>
-                                        <div>
-                                            <p>
-                                                <span className="rounded-2xl border-1 border-black bg-light-green">Wireframe</span>.
+                                            <p className="leading-relaxed">
+                                                <span className="mr-2 inline-block rounded-full border border-black bg-light-green px-3 py-0.5 text-sm font-bold">
+                                                    Iteration
+                                                </span>
+                                                After team discussions and iterating on several core concepts, we finalized the features that would
+                                                form the backbone of our application.
                                             </p>
-                                            <div className="bg-dot-pattern grid-cols-1 gap-y-4 rounded-2xl p-8 md:gap-y-4">
-                                                <img
-                                                    src="images/foundation/wireframe.png"
-                                                    className="max-w-[30vh] rounded-2xl border-1 border-light-green lg:max-w-[60vh]"
-                                                    loading="lazy"
-                                                />
-                                            </div>
-                                            <p>
-                                                <span className="rounded-2xl border-1 border-black bg-light-green">UX Research</span>. Keypoints were
-                                                made to make sure our app{' '}
-                                                <span className="bg-light-green">
-                                                    will not overwhelm user, follow Apple Human Interface Guide (HIG) and Self-Determination Theory
-                                                    (SDT) persuasive features.
-                                                </span>{' '}
-                                                We also focus on putting task prioritization container on top, as our app focus.
-                                            </p>
-                                            <br></br>
-                                            <p>
-                                                <span className="rounded-2xl border-1 bg-light-green"> UI Design </span>. It was my first time using
-                                                Sketch, but it only took me 2 days to figure out most of the setting and useable feature for our
-                                                prototype. Check{' '}
-                                                <a href="https://bit.ly/Priorly-Prototype">
-                                                    {' '}
-                                                    <span className="bg-light-green">here</span>
-                                                </a>{' '}
-                                                for a working prototype.
-                                            </p>
-                                            <div className="bg-dot-pattern grid-cols-1 justify-center gap-y-4 rounded-2xl p-8 md:gap-y-4">
-                                                <img
-                                                    src="images/foundation/sketch.png"
-                                                    className="max-w-[30vh] rounded-2xl border-1 border-light-green lg:max-w-[60vh]"
-                                                    loading="lazy"
-                                                />
-                                            </div>
 
-                                            <div className="flex w-full items-center justify-start gap-x-2">
-                                                <h1 className="text-[2rem] text-black md:text-[1.2rem] xl:text-[1.5rem]">Q3.</h1>
-                                                <p className="font-shine text-[2rem]">SwiftUI Coding & SwiftData</p>
-                                            </div>
-                                            <div>
-                                                <p>
-                                                    {' '}
-                                                    <a href="https://github.com/apostroef/Priorly">
-                                                        <span className="bg-light-green font-bold">GitHub Repo</span>
-                                                    </a>
-                                                </p>
-                                                <br></br>
-                                                <p>
-                                                    I developed Priorly to tackle choice paralysis through automated, logic-driven prioritization.
-                                                    Technically, this involved building a deep persistence layer using{' '}
-                                                    <span className="bg-light-green">
-                                                        SwiftData to manage task objects and their RICE calculations
-                                                    </span>
-                                                    . I learned SwiftUI from free courses in YouTube and read documentation from Apple Developer
-                                                    website as well as utilizing AI agent helps (Claude, Gemini) for debugging.
-                                                </p>
+                                            <div className="bg-dot-pattern flex justify-center rounded-2xl p-4 md:p-8">
+                                                <img
+                                                    src="images/foundation/miro.png"
+                                                    className="rounded-2xl shadow-sm lg:max-w-[60vh]"
+                                                    loading="lazy"
+                                                    alt="Feature iteration board"
+                                                />
                                             </div>
                                         </div>
                                     </div>
-                                </>
+
+                                    {/* Q2 Section */}
+                                    <div className="space-y-4">
+                                        <div className="flex w-full items-center justify-start gap-x-3">
+                                            <h1 className="text-[2rem] font-bold text-black md:text-[1.2rem] xl:text-[1.5rem]">Q2.</h1>
+                                            <p className="font-shine text-[2.5rem]">UX Research & UI Design</p>
+                                        </div>
+                                        <div className="space-y-6">
+                                            <p className="leading-relaxed">
+                                                <span className="mr-2 inline-block rounded-full border border-black bg-light-green px-3 py-0.5 text-sm font-bold">
+                                                    Wireframe
+                                                </span>
+                                                We began with low-fidelity wireframes to visualize the core user journey before moving into detailed
+                                                designs.
+                                            </p>
+                                            <div className="bg-dot-pattern flex justify-center rounded-2xl p-4 md:p-8">
+                                                <img
+                                                    src="images/foundation/wireframe.png"
+                                                    className="max-w-[30vh] rounded-2xl border border-light-green/50 shadow-sm lg:max-w-[60vh]"
+                                                    loading="lazy"
+                                                    alt="Application wireframes"
+                                                />
+                                            </div>
+                                            <p className="leading-relaxed">
+                                                <span className="mr-2 inline-block rounded-full border border-black bg-light-green px-3 py-0.5 text-sm font-bold">
+                                                    UX Research
+                                                </span>
+                                                We prioritized a user interface that{' '}
+                                                <span className="font-semibold underline decoration-light-green/50 decoration-2">
+                                                    avoids overwhelming the user, follows Apple's Human Interface Guidelines (HIG), and integrates
+                                                    SDT-informed persuasive features.
+                                                </span>{' '}
+                                                Several key decision was made.
+                                                <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-3">
+                                                    <p>1. Positioning the task prioritization container at the top of the view to maintain focus.</p>
+                                                    <p>
+                                                        2. Adding streak on left-top corner following common practice in TikTok and Duolingo to invite
+                                                        user for coming back
+                                                    </p>
+                                                    <p>
+                                                        3. Separating task based on Eisenhower folder instead of task list that might increase
+                                                        overwhelming
+                                                    </p>
+                                                </div>
+                                            </p>
+                                            <p className="leading-relaxed">
+                                                <span className="mr-2 inline-block rounded-full border border-black bg-light-green px-3 py-0.5 text-sm font-bold">
+                                                    UI Design
+                                                </span>
+                                                Learning Sketch was a swift two-day process, allowing me to build a high-fidelity prototype. You can
+                                                view the{' '}
+                                                <a
+                                                    href="https://bit.ly/Priorly-Prototype"
+                                                    className="font-bold text-black underline transition-colors hover:text-green-800"
+                                                >
+                                                    working prototype here.
+                                                </a>
+                                            </p>
+                                            <div className="bg-dot-pattern flex justify-center rounded-2xl p-4 md:p-8">
+                                                <img
+                                                    src="images/foundation/sketch.png"
+                                                    className="max-w-[30vh] rounded-2xl border border-light-green/50 shadow-sm lg:max-w-[60vh]"
+                                                    loading="lazy"
+                                                    alt="Sketch design workspace"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {/* Q3 Section */}
+                                    <div className="space-y-4">
+                                        <div className="flex w-full items-center justify-start gap-x-3">
+                                            <h1 className="text-[2rem] font-bold text-black md:text-[1.2rem] xl:text-[1.5rem]">Q3.</h1>
+                                            <p className="font-shine text-[2.5rem]">SwiftUI Coding & SwiftData</p>
+                                        </div>
+                                        <div className="space-y-4">
+                                            <p>
+                                                <a
+                                                    href="https://github.com/apostroef/Priorly"
+                                                    className="inline-flex items-center gap-x-2 rounded-full border border-black bg-black px-4 py-2 text-sm font-bold text-white transition-all hover:bg-gray-800"
+                                                >
+                                                    View GitHub Repository
+                                                    <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                        <path
+                                                            strokeLinecap="round"
+                                                            strokeLinejoin="round"
+                                                            strokeWidth={2}
+                                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                                        />
+                                                    </svg>
+                                                </a>
+                                            </p>
+                                            <p className="leading-relaxed">
+                                                I developed Priorly to address choice paralysis through automated, logic-driven prioritization.
+                                                Technically, this involved building a robust persistence layer using{' '}
+                                                <span className="font-semibold underline decoration-light-green/50 decoration-2">
+                                                    SwiftData to manage complex task objects and their RICE calculations
+                                                </span>
+                                                . My learning journey involved YouTube tutorials, Apple's official documentation, and leveraging AI
+                                                tools (Claude, Gemini) for efficient debugging.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             }
                         />
                         <ProjectSection
@@ -235,20 +267,15 @@ export default function Priorly() {
                         <ProjectSection
                             SectionTitle="Afterwords"
                             SectionBody={
-                                <>
-                                    {' '}
-                                    <p>
-                                        Our process ensured all design choices were grounded in research, collaboration and iteration. While the
-                                        current solution effectively maintains user motivation through rewarding target activities, we identified
-                                        "Relatedness" aspect from BPN as a key area for future development.{' '}
+                                <div className="space-y-4 text-gray-800">
+                                    <p className="leading-relaxed">
+                                        Our process ensured that every design choice was grounded in research, collaboration, and continuous
+                                        iteration. While the current solution effectively maintains user motivation through rewarding task activities,
+                                        we identified the <span className="font-semibold">"Relatedness"</span> aspect of Basic Psychological Needs as
+                                        a key area for future development.
                                     </p>
-                                    <br></br>
-                                    <p>
-                                        I mastered technical skills in SwiftUI and SwiftData while adhering to Apple’s Human Interface Guidelines
-                                        through consistent daily self-regulated learning. This experience has deeply motivated me to pursue further
-                                        mastery within the Apple developer ecosystem.
-                                    </p>
-                                </>
+                                    <p className="leading-relaxed">Special thanks to all of mentors from Apple Academy @UC and my team partner.</p>
+                                </div>
                             }
                         />
                     </>
