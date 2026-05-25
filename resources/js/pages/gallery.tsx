@@ -1,5 +1,6 @@
 import { Navbar } from '@/components/navbar-folder';
 import { XMargin } from '@/components/x-margin-line';
+import { ImageWithSkeleton } from '@/components/ui/image-with-skeleton';
 
 export default function homepage() {
     const images = [
@@ -34,10 +35,11 @@ export default function homepage() {
                         <div key={item.id} className="break-inside-avoid">
                             <div className="group flex-col rounded-2xl duration-300 lg:hover:rotate-2 lg:hover:shadow-2xl">
                                 <div className="relative flex justify-center opacity-100 transition-transform lg:group-hover:opacity-30 lg:group-hover:blur-[5px]">
-                                    <img
+                                    <ImageWithSkeleton
                                         src={item.imgLink}
                                         alt={item.alt}
                                         className="h-auto w-full cursor-pointer rounded-lg shadow-md transition-opacity duration-300 lg:group-hover:opacity-90"
+                                        skeletonClassName="rounded-lg"
                                     />
                                 </div>
                                 <div className="pointer-events-none absolute inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 lg:group-hover:opacity-70">
@@ -52,7 +54,7 @@ export default function homepage() {
                 </div>
             </div>
             <div className="flex w-full items-center justify-center gap-2 p-4 align-middle md:p-6 xl:p-8">
-                <img src="/images/seal.gif" className="flex w-[5vh] items-center justify-center" />
+                <img src="/images/seal.gif" className="flex w-[5vh] items-center justify-center" loading="lazy" />
                 <p className="text-center align-middle text-[1rem] md:text-[1.2rem] xl:text-[1.3rem]">waiting for another journey to share! :D</p>
             </div>
         </>

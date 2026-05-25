@@ -15,7 +15,7 @@ export function HeroSection() {
                         Hi, I am{' '}
                     </h1>
                     <div className="relative left-1/8 h-[3rem] w-[10rem] flex-shrink-0 md:left-0 md:h-[3rem] md:w-[11.75rem] lg:h-[4rem] lg:w-[15rem]">
-                        <img className="absolute top-[-0.5rem] right-[-0.5rem] z-10 h-[3rem] w-[4rem]" src="/images/sparkles.gif"></img>
+                        <img className="absolute top-[-0.5rem] right-[-0.5rem] z-10 h-[3rem] w-[4rem]" src="/images/sparkles.gif" loading="lazy"></img>
                         <img className="absolute inset-0 z-0 h-full w-full" src="/images/ibra-c.png"></img>
                     </div>
                     <h1 className="flex items-center justify-center font-creato text-[2.5rem] font-bold text-black md:col-span-2 md:text-[4rem] lg:col-span-1 lg:justify-start">
@@ -60,6 +60,7 @@ export function HeroSection() {
                     <img
                         src="/images/rumput.svg"
                         className="absolute top-12 z-10 flex h-[2.2rem] items-center justify-center md:top-8 md:h-[3.2rem]"
+                        loading="lazy"
                     />
                 </div>
             </div>

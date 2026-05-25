@@ -1,4 +1,5 @@
 import React from 'react';
+import { ImageWithSkeleton } from '../ui/image-with-skeleton';
 
 export interface ShowcaseItem {
     img: string;
@@ -36,7 +37,7 @@ const Section = ({ title, desc, items, isMobile = false }: SectionProps) => (
             {items.map((item, idx) => (
                 <div key={idx} className="flex break-inside-avoid flex-col items-center gap-2">
                     <div className="relative flex w-full items-center justify-center overflow-hidden rounded-xl border bg-white/5">
-                        <img
+                        <ImageWithSkeleton
                             src={item.img}
                             alt={item.label}
                             className={`h-auto w-full object-contain ${
@@ -44,6 +45,7 @@ const Section = ({ title, desc, items, isMobile = false }: SectionProps) => (
                                     ? 'max-w-[120px] py-4 md:max-w-[160px] lg:max-w-[180px]'
                                     : 'max-h-[280px] max-w-full md:max-h-[320px] lg:max-h-[360px]'
                             } `}
+                            skeletonClassName="bg-white/10"
                         />
                     </div>
                     <p className="w-full rounded-2xl border border-white bg-light-green px-2 py-1 text-center text-sm text-white">{item.label}</p>

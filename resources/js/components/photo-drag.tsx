@@ -43,7 +43,7 @@ export const PictDrag: React.FC<PictDrag> = ({ imgSrc, containerRef, id, top, le
         >
             <div className="z-0 cursor-pointer">
                 <div className="hover:rotate-2 ease-in-out transition-all duration-400 relative inset-0 flex items-center w-auto h-auto justify-center md:relative md:flex-col">
-                    <img src={`${imgSrc}`} className={`${hCard} w-auto relative` }  draggable="false"/>
+                    <img src={`${imgSrc}`} className={`${hCard} w-auto relative` }  draggable="false" loading="lazy"/>
                 </div>
             </div>
         </motion.div>

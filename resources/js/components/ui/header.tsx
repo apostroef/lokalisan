@@ -14,7 +14,7 @@ export const Header: React.FC<Header> = ({
     return <>
     <div className="flex flex-col items-start justify-center">
         <div className="flex flex-row items-center justify-items-start gap-x-4">
-                                    <img src={icon} className="md:h-[3rem] h-[2rem] w-auto object-center" />
+                                    <img src={icon} className="md:h-[3rem] h-[2rem] w-auto object-center" loading="lazy" />
                                     <h1 className="font-sans md:text-[3rem] text-[2rem] text-black">
                                         {title}
                                     </h1>
