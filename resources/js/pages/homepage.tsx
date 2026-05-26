@@ -13,12 +13,7 @@ export default function homepage() {
             <div className="h-screen overflow-x-hidden overflow-y-scroll">
                 <XMargin />
                 <div>
-                    <Navbar
-                        src1="/images/folder-plain.svg"
-                        src2="/images/folder-yellow.svg"
-                        src3="/images/folder.svg"
-                        src4="/images/folder-orange.svg"
-                    />
+                    <Navbar src1="/images/folder-plain.svg" src2="" src3="/images/folder.svg" src4="/images/folder-orange.svg" />
                 </div>
                 <div className="">
                     <div className="relative"></div>
