@@ -29,16 +29,17 @@ export function AboutMe() {
                                 <img src="/images/star-green.svg" className="xl:h-[2rem]" />
                             </div>
                             <p className="mt-2 py-2 text-[1rem] text-black">
-                                Outside the lecture halls and community projects, I'm fueled with a passion for design. I'm a firm believer that great
-                                work starts with <span className="font-bold">problems and systemic planning</span>. Combining that analytical edge
-                                with my background in graphic design and video editing, I've naturally evolved into{' '}
-                                <span className="font-bold">UI/UX designer & Front-End Development</span> during half year of my college.
+                                Outside the lecture halls and industry work, I'm fueled with a passion for design. I'm a firm believer that great work
+                                starts with <span className="font-bold">problems and systemic planning</span>. That analytical edge, paired with a
+                                genuine curiosity for how people think and behave, naturally evolved into{' '}
+                                <span className="font-bold">UI/UX design</span> — from user research and wireframing to building scalable design
+                                systems.
                             </p>
                             <p className="py-2 text-black">
-                                Going on to final year, my interest pivots into <span className="font-bold">Project & Product Development</span>. I've
-                                backed this up with formal learning in areas such as{' '}
-                                <span className="font-bold">Software Development & Testing, Project Management, and Risk Management</span>, along with
-                                understanding of <span className="font-bold">Enterprise Systems and Business Architecture.</span>
+                                Going on to final year, my interest expands into <span className="font-bold">Product Management</span>. I see design
+                                as the bridge between user needs and business goals, and I'm drawn to owning that bigger picture — from{' '}
+                                <span className="font-bold">defining product strategy and requirements</span> to validating solutions through
+                                prototyping and iteration. It's a natural next step from designing experiences to shaping the products behind them.
                             </p>
                             <div className="flex justify-center lg:scale-60 lg:p-1 xl:w-full xl:scale-70 xl:p-4">
                                 <AnimatedButton
