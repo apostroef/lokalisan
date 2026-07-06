@@ -32,6 +32,10 @@ Route::get('/gallery', function () {
     return Inertia::render('gallery');
 })->name('gallery');
 
+Route::get('/dana-test', function () {
+    return Inertia::render('projects/TestDANA');
+})->name('dana-test');
+
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('dashboard', function () {
         return Inertia::render('dashboard');

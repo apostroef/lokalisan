@@ -72,6 +72,30 @@ export default function homepage() {
                         <ScrollStack className="h-[100vh] w-auto px-4 md:h-[120vh] md:px-24 xl:h-[100vh] xl:px-36">
                             <ScrollStackItem>
                                 <ProjectCard
+                                    link="/dana-test"
+                                    title={
+                                        <>
+                                            <span className="font-serif italic">DANA Indonesia Test:</span> Referral Program Design
+                                        </>
+                                    }
+                                    description={
+                                        <>
+                                            April 2026 | <span className="font-bold">Role</span> UI/UX Designer, iOS Developer |{' '}
+                                            <span className="font-bold">User</span> Procrastinator | <span className="font-bold">Scope</span>{' '}
+                                            Information Gathering, User Research, UI/UX, Prototyping, iOS App Development
+                                        </>
+                                    }
+                                    intro="In a 5-person team during Apple Foundation Program, I designed UI/UX based on user pain point and developed each app features with SwiftUI and Swift Data."
+                                    problem="How to overcome procrastination through s clear & rewarding target activity?"
+                                    icon="/images/foundation/apple-dev.png"
+                                    imgSrc1="/images/foundation/streak-task.gif"
+                                    imgSrc2="/images/foundation/next-task.gif"
+                                    imgSrc3="/images/foundation/prototype.svg"
+                                    imgMobile="/images/foundation/landing-mock.png"
+                                />
+                            </ScrollStackItem>
+                            <ScrollStackItem>
+                                <ProjectCard
                                     link="/priorly"
                                     title={
                                         <>
