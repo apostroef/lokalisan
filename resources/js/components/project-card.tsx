@@ -55,7 +55,6 @@ export const ProjectCard: React.FC<ProjectCard> = ({
                         <div className="p-4">
                             <div className="bg-dot-pattern h-auto w-full overflow-hidden rounded-xl md:bg-black lg:block">
                                 <div className="flex scale-80 flex-row items-center justify-center gap-x-4 p-2 md:p-4 lg:scale-100">
-                                    {/* Mobile image - replace this block */}
                                     <div className="block w-full md:hidden">
                                         <img className="h-auto w-full rounded-xl object-contain" loading="lazy" src={imgMobile} />
                                     </div>

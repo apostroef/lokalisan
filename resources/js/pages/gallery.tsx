@@ -1,10 +1,11 @@
 import { Navbar } from '@/components/navbar-folder';
-import { XMargin } from '@/components/x-margin-line';
 import { ImageWithSkeleton } from '@/components/ui/image-with-skeleton';
+import { XMargin } from '@/components/x-margin-line';
 
 export default function homepage() {
     const images = [
         { id: 1, imgLink: '/images/gallery/beach.jpg', alt: 'Tulungagung, 2026' },
+        { id: 18, imgLink: '/images/gallery/graduation-262.jpeg', alt: 'Best Graduate, UNAIR 262' },
         { id: 2, imgLink: '/images/gallery/aegis.JPG', alt: 'Opening speech as Chairwoman of Student Ambassador' },
         { id: 3, imgLink: '/images/gallery/bf.jpg', alt: '<3' },
         { id: 4, imgLink: '/images/gallery/infest.jpg', alt: 'Field Coordinator' },

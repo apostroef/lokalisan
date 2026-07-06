@@ -13,7 +13,7 @@ export default function homepage() {
             <div className="h-screen overflow-x-hidden overflow-y-scroll">
                 <XMargin />
                 <div>
-                    <Navbar src1="/images/folder-plain.svg" src2="" src3="/images/folder.svg" src4="/images/folder-orange.svg" />
+                    <Navbar src1="/images/folder-plain.svg" src2="/images/folder.svg" src3="/images/folder.svg" src4="/images/folder-orange.svg" />
                 </div>
                 <div className="">
                     <div className="relative"></div>
@@ -45,7 +45,7 @@ export default function homepage() {
                                         <span className="font-serif italic">About</span> Me
                                     </>
                                 }
-                                description="GPA 3.82/4 | Less than 1 year UI/UX research experiences | 2nd Outstanding Student 2024 | 3rd Outstanding Student 2023"
+                                description="GPA 3.82/4 |Almost 1 year UI/UX experiences | Best Graduate Unair 262 | 2nd Outstanding Student 2024"
                             />
                             <AboutMe />
                         </div>
