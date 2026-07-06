@@ -70,7 +70,7 @@ export default function homepage() {
                     </div>
                     <div className="bg-dot-pattern overflow-y-auto p-4 lg:p-8">
                         <ScrollStack className="h-[100vh] w-auto px-4 md:h-[120vh] md:px-24 xl:h-[100vh] xl:px-36">
-                            <ScrollStackItem>
+                            {/* <ScrollStackItem>
                                 <ProjectCard
                                     link="/dana-test"
                                     title={
@@ -93,7 +93,7 @@ export default function homepage() {
                                     imgSrc3="/images/foundation/prototype.svg"
                                     imgMobile="/images/foundation/landing-mock.png"
                                 />
-                            </ScrollStackItem>
+                            </ScrollStackItem> */}
                             <ScrollStackItem>
                                 <ProjectCard
                                     link="/priorly"
