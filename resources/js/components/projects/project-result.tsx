@@ -48,7 +48,7 @@ const Section = ({ title, desc, items, isMobile = false }: SectionProps) => (
                             skeletonClassName="bg-white/10"
                         />
                     </div>
-                    <p className="w-full rounded-2xl border border-white bg-light-green px-2 py-1 text-center text-sm text-white">{item.label}</p>
+                    <h1 className="w-full rounded-2xl border px-2 py-1 text-center text-sm text-white">{item.label}</h1>
                 </div>
             ))}
         </div>

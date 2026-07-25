@@ -29,11 +29,11 @@ export function AboutMe() {
                                 <img src="/images/star-green.svg" className="xl:h-[2rem]" />
                             </div>
                             <p className="mt-2 py-2 text-[1rem] text-black">
-                                Outside the lecture halls and industry work, I'm fueled with a passion for design. I'm a firm believer that great work
-                                starts with <span className="font-bold">problems and systemic planning</span>. That analytical edge, paired with a
-                                genuine curiosity for how people think and behave, naturally evolved into{' '}
-                                <span className="font-bold">UI/UX design</span> — from user research and wireframing to building scalable design
-                                systems.
+                                You have to love what you want to master. For me, crafting designs that solve real problems and are feasible to
+                                produce is what I wish to master more deeply. I'm a firm believer that great work starts with{' '}
+                                <span className="font-bold">problems and systemic planning</span>. That analytical edge, paired with a genuine
+                                curiosity for how people think and behave, naturally evolved into <span className="font-bold">UI/UX design</span> —
+                                from user research and wireframing to building scalable design systems.{' '}
                             </p>
                             <p className="py-2 text-black">
                                 Going on to final year, my interest expands into <span className="font-bold">Product Management</span>. I see design
